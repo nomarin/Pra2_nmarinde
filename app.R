@@ -17,7 +17,7 @@ data$tonnes <- as.numeric(data$tonnes)
 # Cree una interfaz de usuario básica con un mapa y un control de año y producto
 
 ui <- fluidPage(
-  titlePanel("World Map"),
+  titlePanel("Production of maize, corn, soy and wheat"),
   
   mainPanel(leafletOutput(outputId = "map", width = "100%", height = "500px"),
             plotOutput(outputId = "barplot", width = "100%", height = "200px"),
